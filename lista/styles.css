@@ -70,3 +70,82 @@ li {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url(../lista/imagenes/759d85ba2ef14276c41e66162e06a8b4.jpg);
+}
+
+.header{
+    background-image: url(../lista/imagenes/759d85ba2ef14276c41e66162e06a8b4.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 100px;
+    width: auto;
+    background-color: white;
+    border: black 1px solid;
+    position: relative;
+    right: -20px;
+  
+
+}   
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+    color: #bca0fc;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #000000;
+    border-radius: 60px;
+}
+
+.header .btn button{
+    font-weight: 700;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+
+    transform: scale(1.1);
+}
